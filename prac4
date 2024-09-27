@@ -1,0 +1,3 @@
+MyWebServices_Service service = new MyWebServices_Service();
+final MyWebService proxy = service.getMyWebServicePort();
+System.out.println(proxy.square(7));
